@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lab1</title>
+    <link type="text/css" rel="stylesheet" href="styles/lab1.css">
+    <script type="text/javascript" src="Js_files/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="Js_files/lab1.js"></script>
+</head>
+<body>
+    <div class="div">
+        <div>
+            <h1>Тест локализации точки относительно треугольника и параллелограмма</h1>
+            <p>Выберете параллелограмм или треугольник:</p><br>
+            <p>Треугольник <input type="radio" name="figure" id="triangle" value="1">
+            Параллелограмм <input type="radio" name="figure" id="parallelogram" value="2" checked="checked">
+            </p>
+            <br>
+            <p>Введите p1 фигуры:</p>
+            <input type="number" id="coord_figure_x1"> <input type="number" id="coord_figure_y1"><br>
+            <p>Введите p2 фигуры:</p>
+            <input type="number" id="coord_figure_x2"> <input type="number" id="coord_figure_y2"><br>
+            <p>Введите p3 фигуры:</p>
+            <input type="number" id="coord_figure_x3"> <input type="number" id="coord_figure_y3"><br>
+            <p>Введитите координаты точки q:</p><br>
+            <input type="number" id="coord_point_x"> <input type="number" id="coord_point_y"> <p>or use</p> <button class="back" id="random_point">Generate random point</button>
+            <br><button class="back" id="give_value">Построить</button><br><br><br>
+            <div id="result">Result</div>
+        </div>
+        <br><br><br>
+        <a class="back" href="index.html">Back</a>
+    </div>
+    <div align="right">
+        <br>
+        <br>
+        <canvas width='600' height='600' id="canvas"></canvas>
+    </div>
+
+</body>
+</html>

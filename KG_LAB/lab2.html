@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lab2</title>
+    <link rel="stylesheet" href="styles/lab2.css">
+    <script type="text/javascript" src="Js_files/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="Js_files/lab2.js"></script>
+</head>
+<body>
+    <h1 align="center">Скругление углов полилинии дугами окружностей</h1>
+    <div class="div">
+        Радиус: <input type="text" size="10" name="radius" id="radius"/>
+        <p>Введите количество углов:</p>
+        <input type="text" size="10" name="corner"/>
+        <br>
+        <button id="generate_polygon_lines" class="button">Сгенерировать полилинию</button>
+        <br>
+        <br>
+        <button id="smoothPolygonLineNormal" class="button">Скруглить с коэффициентом = 1</button>
+        <br/>
+        <!--<button id="smoothPolygonLineRandom" class="button">Скруглить с случайным коэффициентом</button>
+        <br/>-->
+        <button id="smoothPolygonLineCoeffs" class="button">Скруглить с коэффициентом = </button>
+        <input type="text" size="10" id="coeff" value="1"/>
+        <br/>
+        <br>
+        <button id="drawPolygonLine" class="button">Перерисовать полилинию</button>
+        <br>
+        <br>
+        <a class="button" href="index.html">Back</a>
+        <br>
+
+    </div>
+    <div align="right">
+        <canvas width="800" height="600" id="canvas"></canvas>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+.interfaceButton {
+    width: 80%;
+    height: 5%;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.polyPoint {
+    fill: black;
+}
+
+.line {
+    stroke: green;
+}
+.poly {
+    fill-rule: evenodd;
+	fill: skyblue;
+    stroke: midnightblue;
+	stroke-width:1;
+}
+
+#canvas {
+    float: left;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#management {
+    width: 300;
+    height: 600;
+    float:left;
+    margin-left: 5px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+}

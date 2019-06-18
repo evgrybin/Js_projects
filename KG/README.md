@@ -1,0 +1,1 @@
+Rounding polyline corners with circular arcs
